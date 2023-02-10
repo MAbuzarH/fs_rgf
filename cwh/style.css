@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 80%;
+    padding: 23px;
+    margin: auto;
+    background-color: rgb(174, 128, 218);
+}
+.container h3, p{
+text-align: center;
+padding: 10px;
+}
+input,textarea{
+width: 80%;
+margin: 11px;
+padding: 7px;
+font-size: 19px;
+display: block;
+}
+.btn{
+    color: aliceblue;
+    background-color: brown;
+    padding: 20px;
+    
+}
+.submitmsg{
+    color: aquamarine;
+    font-size: 19px;
+}
